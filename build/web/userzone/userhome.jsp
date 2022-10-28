@@ -1,0 +1,272 @@
+<%-- 
+    Document   : userhome
+    Created on : 6 Sep, 2022, 2:43:05 PM
+    Author     : Jyoti
+--%>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Shopping Mart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous" />
+        <link rel="stylesheet" href="../css/userhome.css">
+    </head>
+    <body>
+        
+        <!-- Header Section Start -->
+        
+        <section id="header">
+            <a href="#"><img src="../img/logo_1.png" class="logo"></a>
+            
+            <div>
+                <ul id="navbar">
+                    <li><a class="active" href="../index.jsp">Home</a></li>
+                    <li><a href="../shopping.jsp">Shop</a></li>
+                    <li><a href="../blog.jsp">Blog</a></li>
+                    <li><a href="../about.jsp">About</a></li>
+                    <li><a href="../contact.jsp">Contact</a></li>
+                    
+                    
+                    <li id="lg-bag"><i class="fa-solid fa-bag-shopping" id="cart-icon"></i></li>
+                    
+                    
+                     <div class="cartt">
+                        <h2 class="cart-title">Your Cart</h2>
+                        <!-- cart content -->
+                        <div class="cart-content">
+                            
+                        </div>
+                        <!-- Total -->
+                        <div class="total">
+                            <div class="total-title">Total</div>
+                            <div class="total-price">$0</div>
+                        </div>
+                        
+                        <!-- Buy Button -->
+                        <button type="button" class="btn-buy">Buy Now</button>
+                        
+                        <!-- Cart close -->
+                        <i class="fa fa-x" id="close-cart"></i>
+                    </div>
+                    <a href="#" id="close"><i class="fa fa-window-close"></i></a>
+                </ul>
+            </div>
+            
+            <div id="mobile">
+                
+                 <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                 <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+        
+        <!-- Header Section ends -->
+        
+        
+          <!-- Featured Product Section Start -->
+          
+          <section id="product1" class="section-p1">
+              
+              
+              <div class="pro-container">
+                  <div class="pro">
+                      <img src="../img/all_products/Men Suit Formal Fashion Black 3 Piece Suit Wedding Suits Men - Etsy.jpg" width="100%" height="70%" alt="" class="product-image">
+                      <div class="description">
+                          <span class="product-title">Helix</span>
+                          <h5>Helix Mens Suit</h5>
+                          <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <h4 class="price">$78</h4>
+                      </div>
+                      <i class="fa fa-shopping-cart cart"></i>
+                      
+                  </div>
+                   <div class="pro">
+                       <img src="../img/all_products/Flowery Tales.jpg" alt="" class="product-image">
+                      <div class="description">
+                          <span>Lulus</span>
+                          <h5 class="product-title">Flowery Tales Wedding Saree</h5>
+                          <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <h4 class="price">$78</h4>
+                      </div>
+                     <i class="fa fa-shopping-cart cart"></i>
+                  </div>
+                   <div class="pro">
+                       <img src="../img/all_products/10 Best Zara Perfumes For Women (2022 Update) _ Viora London (1).jpg" alt="" class="product-image">
+                      <div class="description">
+                          <span>ZARA</span>
+                          <h5 class="product-title">ZARA - Viora London Perfume</h5>
+                          <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <h4 class="price">$78</h4>
+                      </div>
+                     <i class="fa fa-shopping-cart cart"></i>
+                  </div>
+                   <div class="pro">
+                       <img src="../img/all_products/Heels.jpg" alt="" class="product-image">
+                      <div class="description">
+                          <span>Lumus</span>
+                          <h5 class="product-title">High Heels Velvet Banded</h5>
+                          <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <h4 class="price">$78</h4>
+                      </div>
+                     <i class="fa fa-shopping-cart cart"></i>
+                  </div>
+                   <div class="pro">
+                       <img src="../img/all_products/Burberry Reveals The Fresh Design Of The DK88 Bag.jpg" alt="" class="product-image">
+                      <div class="description">
+                          <span>Burberry</span>
+                          <h5 class="product-title">Reveals The Fresh Design Of the DK88 Bag</h5>
+                          <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <h4 class="price">$78</h4>
+                      </div>
+                      <i class="fa fa-shopping-cart cart"></i>
+                  </div>
+                   <div class="pro">
+                      <img src="../img/products/f6.jpg" width="100%" height="60%" alt="" class="product-image">
+                      <div class="description">
+                          <span>adidas</span>
+                          <h5 class="product-title">Cartoon Astronaut T</h5>
+                          <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <h4 class="price">$78</h4>
+                      </div>
+                      <i class="fa fa-shopping-cart cart"></i>
+                  </div>
+                   <div class="pro">
+                       <img src="../img/all_products/Sapato de noiva_ como escolher o modelo ideal para o seu casamento - Página 5 de 7 - Casando Sem Grana.jpg" alt="" class="product-image">
+                      <div class="description">
+                          <span>Sapato</span>
+                          <h5 class="product-title">De Noiva_como escolher heels</h5>
+                          <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <h4 class="price">$78</h4>
+                      </div>
+                      <i class="fa fa-shopping-cart cart"></i>
+                  </div>
+                   <div class="pro">
+                       <img src="../img/all_products/SHOP - Frugal2Fab.jpg" alt="" class="product-image">
+                      <div class="description">
+                          <span>frugal</span>
+                          <h5 class="product-title">Black George Golden Border Wedding Saree</h5>
+                          <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <h4 class="price">$78</h4>
+                      </div>
+                      <i class="fa fa-shopping-cart cart"></i>
+                  </div>
+          
+                 
+               
+              </div>
+          </section>
+          
+     
+           
+           <!-- Footer Section Starts -->
+           
+           <footer class="section-p1">
+               <div class="col">
+                   <img class="logo" src="img/logo_1.png" alt="">
+                   <h4>Contact</h4>
+                   <p><strong>Address: </strong>562 Wellington Road, Street 32, San Francisco</p>
+                   
+                   <p><strong>Phone: </strong>+01 2222 365 /(+91) 01 2345 6789</p>
+                   
+                   <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+                   <div class="follow">
+                       <h4>Follow Us</h4>
+                       <div class="icon">
+                           <i class="fab fa-facebook-f"></i>
+                           <i class="fab fa-twitter"></i>
+                           <i class="fab fa-instagram"></i>
+                           <i class="fab fa-pinterest-p"></i>
+                           <i class="fab fa-youtube"></i>
+                       </div>
+                   </div>
+               </div>
+               
+               <div class="col">
+                   <h4>About</h4>
+                   <a href="#">About Us</a>
+                   <a href="#">Delivery Information</a>
+                   <a href="#">Privacy Policy</a>
+                   <a href="#">Terms & Conditions</a>
+                   <a href="#">Contact Us</a>
+               </div>
+               
+               <div class="col">
+                   <h4>My Account</h4>
+                   <a href="#">Sign In</a>
+                   <a href="#">View Cart</a>
+                   <a href="#">My Wishlist</a>
+                   <a href="#">Track My Order</a>
+                   <a href="#">Help</a>
+               </div>
+               
+               <div class="col install">
+                   <h4>Install App</h4>
+                   <p>From App Store or Google Play</p>
+                   <div class="row">
+                       <img src="img/pay/app.jpg" alt="">
+                        <img src="img/pay/play.jpg" alt="">
+                   </div>
+                   <p>Secured Payment Gateway</p>
+                   <img src="img/pay/pay.png" alt="">
+               </div>
+               
+               <div class="copyright">
+                   <p>@ Since 2010, Shopping - Mart</p>
+               </div>
+           </footer>
+          
+           <!-- Footer Section Ends -->
+           <script src="../js/userhome.js"></script>
+    </body>
+</html>
